@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.zwe.pulldown_anim_demo.widget.TouchPullView
+        android:id="@+id/touch_pull"
+        app:pContentDrawable="@drawable/ic_draw_circle"
+        app:pContentDrawableMargin="2dp"
+        app:pDragHeight="330dp"
+        app:pColor="@color/colorAccent"
+        app:pRadius="20dp"
+        app:pTangenAngle="110"
+        app:pTargetGravityHeight="4dp"
+        app:pTargetWidth="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.zwe.pulldown_anim_demo.widget.TestBeisView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</RelativeLayout>
